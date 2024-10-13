@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.contact-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #fdf7f2;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-image {
+    flex: 1;
+    background-color: #eee;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 40px;
+    background-color: #f4f0ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-form h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form button {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #333;
+}
+
+.contact-details {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.contact-details p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.share-links {
+    display: flex;
+    align-items: center;
+}
+
+.share-links span {
+    margin-right: 10px;
+}
+
+.share-links a img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #484545;
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #040404;
+}
+
+/* 
+
+.share-links {
+    display: flex;
+    align-items: center;
+}
+
+.share-links span {
+    margin-right: 10px;
+}
+
+.share-links a img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #484545;
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: none;
+} */
+
+/* .social-icons a:hover {
+    color: #040404;
+} */

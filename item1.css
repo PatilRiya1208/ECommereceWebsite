@@ -1,0 +1,287 @@
+.navbar-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-btn:hover {
+    background-color: black;
+    color: white !important;
+}
+
+.login-btn{
+    background-color: black;
+    color: white !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.item-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.product-gallery {
+    flex: 1;
+    text-align: center;
+}
+
+.product-gallery img {
+    width: 80%;
+}
+
+.thumbnail-gallery {
+    margin-top: 10px;
+}
+
+.thumbnail-gallery img {
+    width: 60px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-details {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.product-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price-section {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+    color: #999;
+}
+
+.sale-price {
+    color: #e63946;
+    font-weight: bold;
+}
+
+.stock-status {
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.color-selection {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.size-selection {
+    margin-bottom: 20px;
+}
+
+.size-options button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.size-options button.selected {
+    background-color: #333;
+    color: #fff;
+}
+
+.size-btn:hover{
+    border: 2px solid black;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.add-to-cart, .wishlist {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.add-to-cart {
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.wishlist {
+    background-color: #f1f1f1;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.add-to-cart:hover, .wishlist:hover{
+    color: white;
+    background-color: #000;
+}
+
+.join-waitlist {
+    margin-bottom: 20px;
+}
+
+.join-waitlist a {
+    color: #e63946;
+    text-decoration: none;
+}
+
+.share-links {
+    display: flex;
+    align-items: center;
+}
+
+.share-links span {
+    margin-right: 10px;
+}
+
+.share-links a img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #484545;
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #040404;
+}
+
+.footer {
+    background-color: #222;
+    color: #ddd;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.newsletter {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.newsletter p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.newsletter-input {
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.newsletter-input button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.footer-section {
+    width: 18%;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-section.logo h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #ddd;
+    font-size: 18px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 10px 0;
+}
+
+.payment-methods img {
+    height: 30px;
+    margin-right: 10px;
+}

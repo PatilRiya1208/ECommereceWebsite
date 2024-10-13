@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="myProfile.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <div class="navbar-container">
+        <!-- LOGO NAME -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body"
+            data-bs-theme="dark">
+            <div class="container-md justify-content-center">
+                <a class="navbar-brand" href="#">Her's</a>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid" style="margin-left: 5%; margin-right: 5%;">
+                <!-- TOGGLE BUTTON -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-home-abt-contact-cat collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-between w-100">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Catalog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Skin</a></li>
+                                <li><a class="dropdown-item" href="#">Make Up</a></li>
+                                <li><a class="dropdown-item" href="displayItems.html">Accessories</a></li>
+                                <li><a class="dropdown-item" href="#">Clothings</a></li>
+                                <li><a class="dropdown-item" href="#">Fragrance</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success nav-btn" type="submit"
+                                    style="border-color: black; color: black;">Search</button>
+                            </form>
+                        </li>
+                        <li>
+                            <a href="myProfile.html" class="bi bi-person"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="bi bi-heart"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="bi bi-cart"></a>
+                        </li>
+                        <li>
+                            <button class="btn btn-outline-success nav-btn" type="submit"
+                                style="border-color: black; color: black;"
+                                onclick="window.location.href='loginPg.html';">Login</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Acoount Holder -->
+    <div class="account-container">
+        <h1>My Account</h1>
+
+        <!-- First Order Block -->
+        <div class="order-block">
+            <div class="order-header">
+                <div>
+                    <p><strong>ORDER NO:</strong> 673290789</p>
+                </div>
+                <div>
+                    <p><strong>SHIPPED DATE:</strong> 01 Oct, 2019</p>
+                </div>
+                <div>
+                    <p><strong>STATUS:</strong> Awaiting Delivery</p>
+                </div>
+                <div>
+                    <p><strong>ORDER AMOUNT:</strong> $259.00</p>
+                </div>
+            </div>
+            <div class="order-divider">
+                
+            </div>
+            <div class="order-items">
+                <img src="https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/23869882/2023/7/4/bf58b931-1da6-467b-a3e5-133d1118dbcd1688469529787RedTapeMenWhiteWovenDesignSneakers1.jpg"
+                    alt="Shoes">
+                <img src="https://i.pinimg.com/736x/da/7d/61/da7d611a70faddae67dc292814453f3a.jpg" alt="Shirt">
+                <img src="https://m.media-amazon.com/images/I/51rLQLwCeHL._AC_UY900_.jpg" alt="Purse">
+                <div class="more-items">
+                    <span>+2 more</span>
+                </div>
+            </div>
+            <div class="order-actions">
+                <button>Order Details</button>
+                <button>Track order</button>
+            </div>
+        </div>
+
+        <!-- Second Order Block -->
+        <div class="order-block">
+            <div class="order-header">
+                <div>
+                    <p><strong>ORDER NO:</strong> 871090437</p>
+                </div>
+                <div>
+                    <p><strong>SHIPPED DATE:</strong> 25 Sep, 2019</p>
+                </div>
+                <div>
+                    <p><strong>STATUS:</strong> In Processing</p>
+                </div>
+                <div>
+                    <p><strong>ORDER AMOUNT:</strong> $75.00</p>
+                </div>
+            </div>
+            <div class="order-items">
+                <img src="https://img.shopperboard.com/11075905/15460845977675-1-small.jpg" alt="Dress">
+            </div>
+            <div class="order-actions">
+                <button>Order Details</button>
+                <button>Track order</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div>
+        <footer class="footer">
+            <div class="container">
+                <div class="newsletter">
+                    <p>Want style Ideas and Treats?</p>
+                    <div class="newsletter-input">
+                        <input type="email" placeholder="Enter Email *">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="footer-content">
+                    <div class="footer-section logo">
+                        <h2>Her's.</h2>
+                        <div class="social-icons">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-youtube"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-medium"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>SUPPORT</h4>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Size Guide</a></li>
+                            <li><a href="#">Shipping & Returns</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>SHOP</h4>
+                        <ul>
+                            <li><a href="#">Clothings Shopping</a></li>
+                            <li><a href="#">Skin Care Shopping</a></li>
+                            <li><a href="#">Cosmetics Shopping</a></li>
+                            <li><a href="#">Accessories </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>COMPANY</h4>
+                        <ul>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy & Cookie Policy</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section">
+                        <h4>CONTACT</h4>
+                        <ul>
+                            <li>1-202-555-0105</li>
+                            <li>1-202-555-0106</li>
+                            <li>help@Hers.com</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>© 2019 All rights reserved. Designed by Riya.</p>
+                    <div class="payment-methods">
+                        <img src="path/to/mastercard-logo.png" alt="MasterCard">
+                        <img src="path/to/visa-logo.png" alt="Visa">
+                        <img src="path/to/amex-logo.png" alt="American Express">
+                        <img src="path/to/paypal-logo.png" alt="PayPal">
+                        <img src="path/to/maestro-logo.png" alt="Maestro">
+                        <img src="path/to/klarna-logo.png" alt="Klarna">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
